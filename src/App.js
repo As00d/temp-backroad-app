@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,25 @@ function App() {
         </a>
       </header>
     </div>
+=======
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Services from "./components/Services";
+import Tours from "./components/Tours";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
+    </>
+>>>>>>> 7f45205 (BackRoad app)
   );
 }
 
